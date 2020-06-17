@@ -41,6 +41,7 @@ object HotItems {
       .keyBy("itemId")
       .timeWindow(Time.hours(1), Time.minutes(5))
       .aggregate(new CountAgg(), new WindowResult())
+    //aggStream.print()
 
     // 对统计聚合结果按照窗口分组，排序输出
     val resultStream: DataStream[String] = aggStream

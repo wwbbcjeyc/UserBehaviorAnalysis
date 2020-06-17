@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="" />
+    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/src/main/scala/com/zitd/hotitemAnalysis/HotItems.scala" beforeDir="false" afterPath="$PROJECT_DIR$/HotItemAnalysis/src/main/scala/com/zitd/hotitemAnalysis/HotItems.scala" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -31,6 +36,7 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1dMK26jEYYzJM8s1wjAqD0qmynN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -57,7 +63,7 @@
       <recent name="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UniqueVisitor">
+  <component name="RunManager" selected="Application.HotItems">
     <configuration name="HotItems" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zitd.hotitemAnalysis.HotItems" />
       <module name="HotItemAnalysis" />
@@ -132,11 +138,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HotItems" />
         <item itemvalue="Application.UniqueVisitor" />
         <item itemvalue="Application.PageView" />
         <item itemvalue="Application.PageView1" />
         <item itemvalue="Application.NetWorkFlow" />
-        <item itemvalue="Application.HotItems" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +163,12 @@
       <workItem from="1592279721362" duration="2320000" />
       <workItem from="1592289364239" duration="10536000" />
       <workItem from="1592305169612" duration="227000" />
+      <workItem from="1592305717732" duration="375000" />
+      <workItem from="1592359142412" duration="265000" />
+      <workItem from="1592363543699" duration="41000" />
+      <workItem from="1592384692998" duration="668000" />
+      <workItem from="1592385553559" duration="500000" />
+      <workItem from="1592391665953" duration="15000" />
     </task>
     <servers />
   </component>
@@ -177,26 +189,26 @@
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592302827227" />
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592238556668" />
-    <state width="1398" height="449" key="GridCell.Tab.0.bottom" timestamp="1592304175275">
+    <state width="1398" height="59" key="GridCell.Tab.0.bottom" timestamp="1592388004592">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="449" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592304175275" />
-    <state width="1398" height="449" key="GridCell.Tab.0.center" timestamp="1592304175274">
+    <state width="1398" height="59" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592388004592" />
+    <state width="1398" height="59" key="GridCell.Tab.0.center" timestamp="1592388004591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459171" />
-    <state width="1398" height="449" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592304175274" />
-    <state width="1398" height="449" key="GridCell.Tab.0.left" timestamp="1592304175274">
+    <state width="1398" height="59" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592388004591" />
+    <state width="1398" height="59" key="GridCell.Tab.0.left" timestamp="1592388004591">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459170" />
-    <state width="1398" height="449" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592304175274" />
-    <state width="1398" height="449" key="GridCell.Tab.0.right" timestamp="1592304175275">
+    <state width="1398" height="59" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592388004591" />
+    <state width="1398" height="59" key="GridCell.Tab.0.right" timestamp="1592388004592">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="449" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592304175275" />
+    <state width="1398" height="59" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592388004592" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1592289317730">
       <screen x="0" y="23" width="1440" height="797" />
     </state>

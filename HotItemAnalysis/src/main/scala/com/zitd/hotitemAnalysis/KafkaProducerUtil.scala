@@ -21,7 +21,6 @@ object KafkaProducerUtil {
     properties.setProperty("bootstrap.servers", "localhost:9092")
     properties.setProperty("key.serializer", "org.apache.kafka.common.serialization.StringSerializer")
     properties.setProperty("value.serializer", "org.apache.kafka.common.serialization.StringSerializer")
-
     // 创建kafka producer
     val producer: KafkaProducer[String, String] = new KafkaProducer[String, String](properties)
 
