@@ -35,7 +35,7 @@ object PageView {
       .keyBy(_._1)
       .timeWindow(Time.hours(1))
       .aggregate(new PvCountAgg(), new PvCountWindowResult())
-
+    //pvCountStream.print()
 
     // 把每个key对应的pv count值合并
     val totalPvCountStream: DataStream[PvCount] = pvCountStream
