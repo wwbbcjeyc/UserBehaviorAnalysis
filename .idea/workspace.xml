@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/src/main/scala/com/zitd/hotitemAnalysis/HotItems.scala" beforeDir="false" afterPath="$PROJECT_DIR$/HotItemAnalysis/src/main/scala/com/zitd/hotitemAnalysis/HotItems.scala" afterDir="false" />
-    </list>
+    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -169,6 +167,13 @@
       <workItem from="1592384692998" duration="668000" />
       <workItem from="1592385553559" duration="500000" />
       <workItem from="1592391665953" duration="15000" />
+      <workItem from="1592391727419" duration="94000" />
+      <workItem from="1592446267667" duration="352000" />
+      <workItem from="1592447456320" duration="4000" />
+      <workItem from="1592451794762" duration="354000" />
+      <workItem from="1592460298522" duration="263000" />
+      <workItem from="1592460700472" duration="341000" />
+      <workItem from="1592461397375" duration="314000" />
     </task>
     <servers />
   </component>
