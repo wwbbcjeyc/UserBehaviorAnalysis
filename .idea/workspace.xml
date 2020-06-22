@@ -1,88 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/TrackFlowAnalysis/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrackFlowAnalysis/src/main/scala/com/zjtd/trackflowanalysis/TrackFlowPageView.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TrackFlowAnalysis/src/main/scala/com/zjtd/trackflowanalysis/bean/TrackFlowEvent.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/UserBehavior.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/apache.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$10$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$10$$anonfun$createSerializer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$10.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$11$$anon$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$11$$anonfun$createSerializer$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$11.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$6$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$6$$anonfun$createSerializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$8$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$8$$anonfun$createSerializer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$9$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$9$$anonfun$createSerializer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$9.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$5$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$5$$anonfun$createSerializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$6$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$6$$anonfun$createSerializer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$7$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$7$$anonfun$createSerializer$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$8$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$8$$anonfun$createSerializer$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$8.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$3$$anon$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$4$$anon$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anonfun$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anonfun$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/aggreate/PageCountAgg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/aggreate/PvCountAgg.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/ApacheLogEvent$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/ApacheLogEvent.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PageViewCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PageViewCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PvCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PvCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UserBehavior$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UserBehavior.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UvCount$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UvCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/custom/Mapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages$$anonfun$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages$$anonfun$onTimer$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages$.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TotalPvCount.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/PageCountWindowResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/PvCountWindowResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/UvCountResult$$anonfun$apply$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/UvCountResult.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -260,6 +179,7 @@
       <workItem from="1592560482799" duration="2913000" />
       <workItem from="1592751289339" duration="64000" />
       <workItem from="1592790428416" duration="4452000" />
+      <workItem from="1592795523795" duration="22000" />
     </task>
     <servers />
   </component>
