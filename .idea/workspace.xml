@@ -44,7 +44,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,7 +61,7 @@
       <recent name="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TrackFlowPageView">
+  <component name="RunManager" selected="Application.PageView">
     <configuration name="HotItems" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zitd.hotitemAnalysis.HotItems" />
       <module name="HotItemAnalysis" />
@@ -136,9 +136,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PageView" />
         <item itemvalue="Application.TrackFlowPageView" />
         <item itemvalue="Application.test" />
-        <item itemvalue="Application.PageView" />
         <item itemvalue="Application.HotItems" />
         <item itemvalue="Application.UniqueVisitor" />
       </list>
@@ -180,6 +180,10 @@
       <workItem from="1592751289339" duration="64000" />
       <workItem from="1592790428416" duration="4452000" />
       <workItem from="1592795523795" duration="22000" />
+      <workItem from="1592796783864" duration="70000" />
+      <workItem from="1592819917052" duration="7174000" />
+      <workItem from="1592890403787" duration="1807000" />
+      <workItem from="1592902509089" duration="529000" />
     </task>
     <servers />
   </component>
@@ -209,35 +213,39 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592791609718" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1592795400452">
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1592896102162">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592795400452" />
+    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102162" />
     <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592575464063" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1592795400450">
+    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1592896102160">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459171" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592795400450" />
+    <state width="1398" height="191" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102160" />
     <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592575464061" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1592795400449">
+    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1592896102158">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459170" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592795400449" />
+    <state width="1398" height="191" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102158" />
     <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592575464061" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1592795400451">
+    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1592896102161">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="2006" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592795400451" />
+    <state width="1398" height="191" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102161" />
     <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592575464062" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1592289317730">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
     <state x="229" y="89" key="SettingsEditor/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592289236157" />
     <state x="229" y="98" key="SettingsEditor/0.23.1440.797/-2048.-247.2048.1129@0.23.1440.797" timestamp="1592289317730" />
+    <state x="421" y="205" width="657" height="490" key="find.popup" timestamp="1592820292304">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="657" height="490" key="find.popup/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592820292304" />
     <state x="114" y="113" key="new project wizard" timestamp="1592557209069">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
