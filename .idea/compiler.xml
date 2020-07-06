@@ -8,8 +8,10 @@
         <outputRelativeToContentRoot value="true" />
         <module name="HotItemAnalysis" />
         <module name="NetworkFlowAnalysis" />
-        <module name="TrackFlowAnalysis" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="TrackFlowAnalysis" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

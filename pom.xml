@@ -11,7 +11,6 @@
     <modules>
         <module>HotItemAnalysis</module>
         <module>NetworkFlowAnalysis</module>
-        <module>TrackFlowAnalysis</module>
     </modules>
 
     <properties>

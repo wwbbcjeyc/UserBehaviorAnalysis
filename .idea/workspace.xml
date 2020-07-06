@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="" />
+    <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/process/UvCountWithBloom.scala" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/process/UvCountWithBloom.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/windows/trigger/MyTrigger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/windows/trigger/MyTrigger.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackFlowAnalysis/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackFlowAnalysis/src/main/scala/com/zjtd/trackflowanalysis/TrackFlowPageView.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TrackFlowAnalysis/src/main/scala/com/zjtd/trackflowanalysis/bean/TrackFlowEvent.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -114,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjtd.trackflowanalysis.test" />
-      <module name="TrackFlowAnalysis" />
+    <configuration name="UvWithBloom" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjtd.networkflowanalysis.UvWithBloom" />
+      <module name="NetworkFlowAnalysis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjtd.trackflowanalysis.*" />
+          <option name="PATTERN" value="com.zjtd.networkflowanalysis.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,15 +139,15 @@
       <item itemvalue="Application.PageView" />
       <item itemvalue="Application.UniqueVisitor" />
       <item itemvalue="Application.TrackFlowPageView" />
-      <item itemvalue="Application.test" />
+      <item itemvalue="Application.UvWithBloom" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.PageView" />
-        <item itemvalue="Application.TrackFlowPageView" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.HotItems" />
+        <item itemvalue="Application.UvWithBloom" />
         <item itemvalue="Application.UniqueVisitor" />
+        <item itemvalue="Application.HotItems" />
+        <item itemvalue="Application.TrackFlowPageView" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +191,26 @@
       <workItem from="1592819917052" duration="7174000" />
       <workItem from="1592890403787" duration="1807000" />
       <workItem from="1592902509089" duration="529000" />
+      <workItem from="1593310403233" duration="70000" />
+      <workItem from="1593314060679" duration="2000" />
+      <workItem from="1593324581939" duration="1698000" />
+      <workItem from="1593341588359" duration="101000" />
+      <workItem from="1593487217698" duration="260000" />
+      <workItem from="1593498899719" duration="16000" />
+      <workItem from="1593499393589" duration="22000" />
+      <workItem from="1593580244250" duration="154000" />
+      <workItem from="1593580444937" duration="46000" />
+      <workItem from="1593590416032" duration="58000" />
+      <workItem from="1593594372617" duration="86000" />
+      <workItem from="1593670797236" duration="229000" />
+      <workItem from="1593672661849" duration="17000" />
+      <workItem from="1593676901121" duration="1140000" />
+      <workItem from="1593680654938" duration="40000" />
+      <workItem from="1593690037044" duration="133000" />
+      <workItem from="1593743435192" duration="2000" />
+      <workItem from="1593772120731" duration="101000" />
+      <workItem from="1593953366810" duration="262000" />
+      <workItem from="1593953972509" duration="236000" />
     </task>
     <servers />
   </component>
@@ -213,29 +240,33 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592791609718" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom" timestamp="1592896102162">
+    <state width="1398" height="465" key="GridCell.Tab.0.bottom" timestamp="1593772219050">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458631" />
     <state width="2006" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="191" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102162" />
+    <state width="1398" height="465" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219050" />
     <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592575464063" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center" timestamp="1592896102160">
+    <state width="1398" height="465" key="GridCell.Tab.0.center" timestamp="1593772219048">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458630" />
     <state width="2006" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459171" />
-    <state width="1398" height="191" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102160" />
+    <state width="1398" height="465" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219048" />
     <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592575464061" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left" timestamp="1592896102158">
+    <state width="1398" height="465" key="GridCell.Tab.0.left" timestamp="1593772219047">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458629" />
     <state width="2006" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459170" />
-    <state width="1398" height="191" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102158" />
+    <state width="1398" height="465" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219047" />
     <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592575464061" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right" timestamp="1592896102161">
+    <state width="1398" height="465" key="GridCell.Tab.0.right" timestamp="1593772219049">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="283" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458631" />
     <state width="2006" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="191" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592896102161" />
+    <state width="1398" height="465" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219049" />
     <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592575464062" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1592289317730">
       <screen x="0" y="23" width="1440" height="797" />

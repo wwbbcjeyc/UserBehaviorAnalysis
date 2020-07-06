@@ -8,29 +8,27 @@ import redis.clients.jedis.Jedis
 
 // 自定义处理逻辑，ProcessWindowFunction
 class UvCountWithBloom() extends ProcessWindowFunction[(String, Long), UvCount, String, TimeWindow]{
-
-  lazy val jedis: Jedis = new Jedis("localhost", 6379)
+  lazy val jedis = new Jedis("localhost", 6379)
   // 需要处理1亿用户的去重，定义布隆过滤器大小为大约10亿，取2的整次幂就是2^30
-  lazy val bloomFilter: Bloom = new Bloom(1 << 30)
+  lazy val bloomFilter = new Bloom(1<<30)
 
-
-  override def process(key: String, context: Context, elements: Iterable[(String, Long)], out: Collector[UvCount]): Unit ={
-    val storeKey: String = context.window.getEnd.toString
+  override def process(key: String, context: Context, elements: Iterable[(String, Long)], out: Collector[UvCount]): Unit = {
+    // 定义在redis中保存的位图的key，以当前窗口的end作为key，（windowEnd，bitmap）
+    val storeKey = context.window.getEnd.toString
 
     // 把当前uv的count值也保存到redis中，保存成一张叫做count的hash表，（windowEnd，uvcount）
-    val countMapKey: String = "count"
-
+    val countMapKey = "count"
 
     // 初始化操作，从redis的count表中，查到当前窗口的uvcount值
-    var count: Long = 0L
+    var count = 0L
     if( jedis.hget(countMapKey, storeKey) != null ){
       count = jedis.hget(countMapKey, storeKey).toLong
     }
 
     // 开始做去重，首先拿到userId
-    val userId: String = elements.last._2.toString
+    val userId = elements.last._2.toString
     // 调用布隆过滤器的hash函数，计算位图中的偏移量
-    val offset: Long = bloomFilter.hash(userId, 61)
+    val offset = bloomFilter.hash(userId, 61)
 
     // 使用redis命令，查询位图中对应位置是否为1
     val isExist: Boolean = jedis.getbit(storeKey, offset)
@@ -40,7 +38,6 @@ class UvCountWithBloom() extends ProcessWindowFunction[(String, Long), UvCount, 
       jedis.hset( countMapKey, storeKey, (count + 1).toString )
     }
   }
-
 }
 
 
