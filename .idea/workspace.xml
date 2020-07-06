@@ -2,11 +2,131 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abfaf546-8fc6-4078-be92-0947f9566b1c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/process/UvCountWithBloom.scala" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/process/UvCountWithBloom.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/windows/trigger/MyTrigger.scala" beforeDir="false" afterPath="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/scala/com/zjtd/networkflowanalysis/windows/trigger/MyTrigger.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrackFlowAnalysis/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrackFlowAnalysis/src/main/scala/com/zjtd/trackflowanalysis/TrackFlowPageView.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/TrackFlowAnalysis/src/main/scala/com/zjtd/trackflowanalysis/bean/TrackFlowEvent.scala" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginFailDetect/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginFailDetect/src/main/resources/LoginLog.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LoginFailDetect/src/main/scala/com/zjtf/loginfaildetect/LoginFail.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/UserBehavior.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/HotItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/KafkaProducerUtil$$anonfun$writeToKafka$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/KafkaProducerUtil$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/KafkaProducerUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/aggregate/CountAgg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/bean/ItemViewCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/bean/ItemViewCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/bean/UserBehavior$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/bean/UserBehavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/process/TopNHotItems$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/process/TopNHotItems$$anonfun$onTimer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/process/TopNHotItems$$anonfun$onTimer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/process/TopNHotItems$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/process/TopNHotItems.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HotItemAnalysis/target/classes/com/zitd/hotitemAnalysis/windows/WindowResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/UserBehavior.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/apache.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$10$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$10$$anonfun$createSerializer$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$10.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$11$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$11$$anonfun$createSerializer$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$11.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$6$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$6$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$8$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$8$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$9$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$9$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anon$9.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/NetWorkFlow.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$5$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$5$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$6$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$6$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$7$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$7$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$7.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$8$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$8$$anonfun$createSerializer$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anon$8.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/PageView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$3$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$3$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$4$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$4$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UniqueVisitor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$4$$anon$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$4$$anonfun$createSerializer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$5$$anon$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$5$$anonfun$createSerializer$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$6$$anon$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$6$$anonfun$createSerializer$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anon$6.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anonfun$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anonfun$3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anonfun$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$$anonfun$5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/UvWithBloom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/aggreate/PageCountAgg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/aggreate/PvCountAgg.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/ApacheLogEvent$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/ApacheLogEvent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PageViewCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PageViewCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PvCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/PvCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UserBehavior$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UserBehavior.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UvCount$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/bean/UvCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/custom/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/Bloom$$anonfun$hash$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/Bloom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages$$anonfun$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages$$anonfun$onTimer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages$.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TopNHotPages.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/TotalPvCount.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/process/UvCountWithBloom.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/PageCountWindowResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/PvCountWindowResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/UvCountResult$$anonfun$apply$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/UvCountResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/NetworkFlowAnalysis/target/classes/com/zjtd/networkflowanalysis/windows/trigger/MyTrigger.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,14 +181,15 @@
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/HotItemAnalysis/src/main/resources" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/NetworkFlowAnalysis/src/main/resources" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/LoginFailDetect/src/main/resources" />
+      <recent name="$PROJECT_DIR$/HotItemAnalysis/src/main/resources" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.PageView">
+  <component name="RunManager" selected="Application.LoginFail">
     <configuration name="HotItems" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.zitd.hotitemAnalysis.HotItems" />
       <module name="HotItemAnalysis" />
@@ -82,12 +203,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PageView" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjtd.networkflowanalysis.PageView" />
-      <module name="NetworkFlowAnalysis" />
+    <configuration name="LoginFail" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjtf.loginfaildetect.LoginFail" />
+      <module name="LoginFailDetect" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjtd.networkflowanalysis.windows.trigger.*" />
+          <option name="PATTERN" value="com.zjtf.loginfaildetect.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +216,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrackFlowPageView" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.zjtd.trackflowanalysis.TrackFlowPageView" />
-      <module name="TrackFlowAnalysis" />
+    <configuration name="PageView" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.zjtd.networkflowanalysis.PageView" />
+      <module name="NetworkFlowAnalysis" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zjtd.trackflowanalysis.*" />
+          <option name="PATTERN" value="com.zjtd.networkflowanalysis.windows.trigger.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,16 +259,16 @@
       <item itemvalue="Application.HotItems" />
       <item itemvalue="Application.PageView" />
       <item itemvalue="Application.UniqueVisitor" />
-      <item itemvalue="Application.TrackFlowPageView" />
       <item itemvalue="Application.UvWithBloom" />
+      <item itemvalue="Application.LoginFail" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LoginFail" />
+        <item itemvalue="Application.UniqueVisitor" />
         <item itemvalue="Application.PageView" />
         <item itemvalue="Application.UvWithBloom" />
-        <item itemvalue="Application.UniqueVisitor" />
         <item itemvalue="Application.HotItems" />
-        <item itemvalue="Application.TrackFlowPageView" />
       </list>
     </recent_temporary>
   </component>
@@ -211,6 +332,8 @@
       <workItem from="1593772120731" duration="101000" />
       <workItem from="1593953366810" duration="262000" />
       <workItem from="1593953972509" duration="236000" />
+      <workItem from="1594020102074" duration="1330000" />
+      <workItem from="1594045254601" duration="3087000" />
     </task>
     <servers />
   </component>
@@ -231,43 +354,43 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="184" y="112" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592790911220" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1592473955955">
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1594046796072">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592473955955" />
-    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1592238556668" />
+    <state x="533" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1594046796072" />
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1592791609718">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="204" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592791609718" />
-    <state width="1398" height="465" key="GridCell.Tab.0.bottom" timestamp="1593772219050">
+    <state width="1398" height="465" key="GridCell.Tab.0.bottom" timestamp="1594045510898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458631" />
     <state width="2006" height="245" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="465" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219050" />
-    <state width="1398" height="270" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1592575464063" />
-    <state width="1398" height="465" key="GridCell.Tab.0.center" timestamp="1593772219048">
+    <state width="1398" height="465" key="GridCell.Tab.0.bottom/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1594022430282" />
+    <state width="1398" height="465" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1594045510898" />
+    <state width="1398" height="465" key="GridCell.Tab.0.center" timestamp="1594045510897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458630" />
     <state width="2006" height="245" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459171" />
-    <state width="1398" height="465" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219048" />
-    <state width="1398" height="270" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1592575464061" />
-    <state width="1398" height="465" key="GridCell.Tab.0.left" timestamp="1593772219047">
+    <state width="1398" height="465" key="GridCell.Tab.0.center/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1594022430281" />
+    <state width="1398" height="465" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1594045510897" />
+    <state width="1398" height="465" key="GridCell.Tab.0.left" timestamp="1594045510895">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458629" />
     <state width="2006" height="245" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459170" />
-    <state width="1398" height="465" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219047" />
-    <state width="1398" height="270" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1592575464061" />
-    <state width="1398" height="465" key="GridCell.Tab.0.right" timestamp="1593772219049">
+    <state width="1398" height="465" key="GridCell.Tab.0.left/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1594022430280" />
+    <state width="1398" height="465" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1594045510895" />
+    <state width="1398" height="465" key="GridCell.Tab.0.right" timestamp="1594045510898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="1398" height="283" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-247.2048.1129@0.0.1440.900" timestamp="1593594458631" />
     <state width="2006" height="245" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@-2048.-270.2048.1152" timestamp="1592303459172" />
-    <state width="1398" height="465" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1593772219049" />
-    <state width="1398" height="270" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1592575464062" />
+    <state width="1398" height="465" key="GridCell.Tab.0.right/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1594022430281" />
+    <state width="1398" height="465" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1594045510898" />
     <state x="229" y="98" key="SettingsEditor" timestamp="1592289317730">
       <screen x="0" y="23" width="1440" height="797" />
     </state>
@@ -277,10 +400,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="421" y="205" width="657" height="490" key="find.popup/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592820292304" />
-    <state x="114" y="113" key="new project wizard" timestamp="1592557209069">
+    <state x="114" y="113" key="new project wizard" timestamp="1594045299673">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="114" y="113" key="new project wizard/0.0.1440.900/-2048.-270.2048.1152@0.0.1440.900" timestamp="1592557209069" />
-    <state x="114" y="113" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1592229608635" />
+    <state x="114" y="113" key="new project wizard/0.0.1440.900@0.0.1440.900" timestamp="1594045299673" />
   </component>
 </project>
