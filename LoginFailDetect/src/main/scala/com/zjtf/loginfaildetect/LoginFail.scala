@@ -99,7 +99,7 @@ case class LoginFailWaring(maxFailTime: Int) extends KeyedProcessFunction[Long,L
 
     if(allLoginFailList.length >= maxFailTime){
       out.collect(Warning(ctx.getCurrentKey,allLoginFailList.head.eventTime,allLoginFailList.last.eventTime
-      ,"login fail in 2s for" +allLoginFailList.length + "times.")
+      ,"login fail in 2s for " +allLoginFailList.length + " times.")
       )
     }
 
