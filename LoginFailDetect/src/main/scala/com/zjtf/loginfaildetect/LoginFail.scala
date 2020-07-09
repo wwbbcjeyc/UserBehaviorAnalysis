@@ -14,7 +14,12 @@ import org.apache.flink.util.Collector
 import scala.collection.mutable.ListBuffer
 
 //定义输入输出样例类
-case class LoginEvent(userId: Long,ip: String, eventType: String,eventTime: Long)
+case class LoginEvent(userId: Long,ip: String, eventType: String,eventTime: Long) {
+
+  object timestamp
+
+}
+
 case class Warning(userId: Long,firstFailTime: Long,lastFailTime:Long,warningMsg: String)
 
 
